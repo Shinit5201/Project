@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+    
+}
+.brand{
+    font-size: 4rem;
+    text-decoration: none;
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Contact{
+    margin-left: 69rem;
+}
+.nav-item{
+    margin-right: 2rem;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+#myVideo{
+    /* margin-left: 0.1rem; */
+    margin-top: -1rem;
+    width: 100%;
+    
+    z-index: 1;
+}
+.heading1{
+    margin-left: 10rem;
+    margin-top: 5rem;
+    z-index: 2;
+    position: absolute;
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px -1px 5px grey;
+}
+
+.heading2{
+    margin-top: 32rem;
+    margin-left: 12rem;
+    z-index: 2;
+    color: white;
+    position: absolute;
+}
+.btn1{
+    position: absolute;
+    margin-top: 36rem;
+    margin-left: 16rem;
+}
+
+.SIMPLIFY-header{
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 13rem;
+    margin-left: 34rem;
+    margin-bottom: 7rem;
+    font-weight: bolder;
+}
+.contain{
+    margin-left: -4rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 768px){
+    .Contact{
+        margin-left: 0rem;
+    }
+    .heading1 {
+        margin-left: 15%;
+        margin-top: -3%;
+        z-index: 2;
+        position: absolute;
+        font-size: 128%;
+        text-align: center;
+        color: black;
+        text-shadow: 1px -1px 5px grey;
+    }
+    .heading2 {
+        margin-top: 6rem;
+        font-size: 66%;
+        margin-left: 5rem;
+        z-index: 2;
+        color: white;
+        position: absolute;
+    }
+    .btn1 {
+        position: absolute;
+        margin-top: 8rem;
+        margin-left: 5rem;
+        font-size: 50%;
+    }
+    .brand{
+        margin-top: -2rem;
+    }
+    
+    .SIMPLIFY-header{
+        /* border: 1px solid; */
+        font-size: 2rem;
+        margin-top: 5rem;
+        margin-right: 1rem;
+        margin-left: 7rem;
+        margin-bottom: 7rem;
+
+}
+    .SIMPLIFY-container{
+        overflow-x: hidden;
+    /* border: 1px solid; */
+    margin-left: -2rem;
+    margin-right: 0rem;
+        
+    }
+    .contain{
+        margin-left: 1rem;
+    text-align: center;
+}
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }

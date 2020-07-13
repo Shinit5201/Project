@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+.sidenav a, .dropdown-btn {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+    font-family: "Sofia";
+    color: #f1f1f1;
+}
+
+.carousel-inner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 120px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    font-family: Times New Roman, Times, serif;
+    font-style: oblique;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+body.signin-body{
+    background-color: #e6f2ff;
+}
+
+.container.signin-container{
+    margin-top: 8%;
+}
+
+.card.signin-card{
+    padding: 40px 0px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+img.signin-img{
+    padding: 0.2rem;
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+
+form.signin-form{
+    margin: auto;
+    width: 350px;
+}
+
+button.signin-btn{
+    color: #ffffff;
+    background-color: #d64829;
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+a.create-new-acc{
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+button.btn-success{
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;;
+    margin-left: 41%;
+}
+.glow {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.steps img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  
+.alert{
+    width: 80%;
+    height: 20%;
+    text-align:center; 
+}
+.progress-bar{
+    width: 80%;
+    height:auto;
+    text-align:center;
+}
+
+.form-group{
+    width:60%;
+    height:auto;
+}
+
+form.signin-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
